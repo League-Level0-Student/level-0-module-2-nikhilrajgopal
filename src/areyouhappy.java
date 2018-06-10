@@ -8,20 +8,20 @@ public class areyouhappy {
 		{
 			JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
 		}
-		if (questionOne.equals("No"))
+		if (questionOne.equals("no"))
 
 		{
 			String questionTwo = JOptionPane.showInputDialog("Do you want to be happy?");
-			if (questionTwo.equals("Yes"))
+			if (questionTwo.equals("yes"))
 
 			{
-				JOptionPane.showInputDialog("Change Something");
+				JOptionPane.showMessageDialog(null,("Change Something"));
 			}
-			if (questionTwo.equals("No"))
+			if (questionTwo.equals("no"))
 
 			{
 
-				JOptionPane.showInputDialog("Keep doing whatever you're doing");
+				JOptionPane.showMessageDialog(null,("Keep doing whatever you're doing"));
 			}
 
 		}
